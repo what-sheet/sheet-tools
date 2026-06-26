@@ -1,20 +1,27 @@
 # sheet-tools
 
-**Дополнительные инструменты, скрипты и утилиты для Sheet** — высокопроизводительного табличного движка на C++.
+PowerShell commands, optimization scripts and helper tools for **Sheet** — high-performance spreadsheet engine written in C++.
 
-### Что входит в репозиторий
+### What's inside
+- PC optimization scripts (CPU + GPU + cleanup)
+- Deep temp and cache cleaning
+- Performance improvement tools
+- Helper scripts for Sheet
 
-- **PowerShell команды** — удобные обёртки и автоматизация
-- **Скрипты оптимизации** — ускорение работы, очистка, настройка производительности
-- **Helper .exe** — небольшие утилиты для быстрой оптимизации
-- **Примеры использования**
+### Installation
 
-### Структура проекта
+```powershell
+git clone https://github.com/what-sheet/sheet-tools.git
+cd sheet-tools
+```
 
-```bash
-sheet-tools/
-├── scripts/           # PowerShell скрипты
-├── bin/               # Готовые .exe утилиты
-├── docs/              # Документация по командам
-├── examples/          # Примеры использования
-└── README.md
+Script                         Description
+optimize-pc.ps1                Full PC optimization (CPU + GPU + deep cleanup)
+fast-mode.ps1                  Quick performance mode
+cleanup.ps1                    Only temporary files cleaning
+
+Recommendations
+
+Always run scripts as Administrator
+Use before starting sheet.exe for best performance
+Especially useful when working with large files
